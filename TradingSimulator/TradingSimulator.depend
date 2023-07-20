@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1622891226 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\prixjournaliers.cpp
+	"PrixJournaliers.h"
+	<string>
+
+1622489899 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\titre.cpp
+	"Titre.h"
+	<string>
+
+1622989619 d:\simulateur_trading\tradingsimulator\tradingsimulator\titre.h
+	<string>
+
+1622995613 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\traderhumain.cpp
+	<iostream>
+	"TraderHumain.h"
+	"Portefeuille.h"
+	"Trader.h"
+	"Transaction.h"
+	<cctype>
+
+1622917733 d:\simulateur_trading\tradingsimulator\tradingsimulator\traderhumain.h
+	<string>
+	"Transaction.h"
+	"Trader.h"
+	"Portefeuille.h"
+	"iostream"
+	"Bourse.h"
+
+1622989641 d:\simulateur_trading\tradingsimulator\tradingsimulator\transaction.h
+	<string>
+	"Titre.h"
+
+1622917732 d:\simulateur_trading\tradingsimulator\tradingsimulator\trader.h
+	"Transaction.h"
+	<string>
+	"Bourse.h"
+	"Portefeuille.h"
+
+1622995033 d:\simulateur_trading\tradingsimulator\tradingsimulator\portefeuille.h
+	"Titre.h"
+	<vector>
+	<string>
+
+1622991256 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\date.cpp
+	"Date.h"
+	<iostream>
+	<string>
+
+1622991256 d:\simulateur_trading\tradingsimulator\tradingsimulator\date.h
+	<iostream>
+
+1622995844 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\portefeuille.cpp
+	<iostream>
+	<string>
+	"Portefeuille.h"
+	"Titre.h"
+
+1622978035 d:\simulateur_trading\tradingsimulator\tradingsimulator\bourse.h
+	<string>
+	<vector>
+	"PrixJournaliers.h"
+	"Date.h"
+
+1622989692 d:\simulateur_trading\tradingsimulator\tradingsimulator\prixjournaliers.h
+	<string>
+	"Date.h"
+	"Bourse.h"
+
+1622986543 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\traderaletoire.cpp
+	"TraderAletoire.h"
+	"Trader.h"
+	"Transaction.h"
+	"Titre.h"
+	"Bourse.h"
+	"Portefeuille.h"
+
+1622917733 d:\simulateur_trading\tradingsimulator\tradingsimulator\traderaletoire.h
+	<string>
+	"portefeuille.h"
+	"Trader.h"
+	"Bourse.h"
+
+1622988396 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<ctime>
+	<string>
+	<windows.h>
+	"Date.h"
+	"PrixJournaliers.h"
+	"Portefeuille.h"
+	"Titre.h"
+	"Trader.h"
+	"TraderAletoire.h"
+	"TraderHumain.h"
+	"Bourse.h"
+	"BourseVector.h"
+	"BourseListe.h"
+	"Transaction.h"
+	"Simulator.h"
+	<cstdlib>
+	<ctime>
+
+1622916504 d:\simulateur_trading\tradingsimulator\tradingsimulator\simulator.h
+	"Bourse.h"
+	"Date.h"
+	"Trader.h"
+	"portefeuille.h"
+	"BourseVector.h"
+
+1622978035 d:\simulateur_trading\tradingsimulator\tradingsimulator\boursevector.h
+	<string>
+	<vector>
+	"PrixJournaliers.h"
+	"Date.h"
+
+1622993959 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\simulator.cpp
+	"Simulator.h"
+	"Bourse.h"
+	"PrixJournaliers.h"
+	"Portefeuille.h"
+	"Titre.h"
+	"Date.h"
+	<string>
+	"Trader.h"
+	"TraderAletoire.h"
+	"TraderHumain.h"
+	<fstream>
+
+1622981991 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\boursevector.cpp
+	<string>
+	<iostream>
+	"Bourse.h"
+	"BourseVector.h"
+	"PrixJournaliers.h"
+	<iterator>
+	<fstream>
+	<vector>
+
+1622852975 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\transaction.cpp
+	<string>
+	"Transaction.h"
+	"Titre.h"
+
+1622978077 source:d:\simulateur_trading\tradingsimulator\tradingsimulator\bourseliste.cpp
+	<iostream>
+	"Bourse.h"
+	"BourseListe.h"
+	"PrixJournaliers.h"
+	<fstream>
+	<vector>
+	<list>
+
+1622978072 d:\simulateur_trading\tradingsimulator\tradingsimulator\bourseliste.h
+	<list>
+

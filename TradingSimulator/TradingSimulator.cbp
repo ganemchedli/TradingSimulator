@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TradingSimulator" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TradingSimulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TradingSimulator" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Bourse.h" />
+		<Unit filename="BourseListe.cpp" />
+		<Unit filename="BourseListe.h" />
+		<Unit filename="BourseVector.cpp" />
+		<Unit filename="BourseVector.h" />
+		<Unit filename="Date.cpp" />
+		<Unit filename="Date.h" />
+		<Unit filename="Portefeuille.cpp" />
+		<Unit filename="Portefeuille.h" />
+		<Unit filename="PrixJournaliers.cpp" />
+		<Unit filename="PrixJournaliers.h" />
+		<Unit filename="Simulator.cpp" />
+		<Unit filename="Simulator.h" />
+		<Unit filename="Titre.cpp" />
+		<Unit filename="Titre.h" />
+		<Unit filename="Trader.h" />
+		<Unit filename="TraderAletoire.cpp" />
+		<Unit filename="TraderAletoire.h" />
+		<Unit filename="TraderAlgo.cpp" />
+		<Unit filename="TraderAlgo.h" />
+		<Unit filename="TraderHumain.cpp" />
+		<Unit filename="TraderHumain.h" />
+		<Unit filename="Transaction.cpp" />
+		<Unit filename="Transaction.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
